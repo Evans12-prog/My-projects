@@ -1,0 +1,38 @@
+body{
+    background-color:black;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+color: white;
+background-image: url(FB_IMG_1729629574251.jpg);
+}
+header{
+    background-color: rgb(122, 122, 146);
+    text-align: center;
+    color: white;
+    padding: 10px 0;
+}
+nav{
+    background-color:white;
+    padding: 0.1cqmin;
+}
+nav ul{
+    text-align: center;
+}
+nav ul li{
+  display: inline;
+  padding: 15px;
+ 
+}
+nav ul li a:hover{
+    background-color: blueviolet;
+    color: brown;
+    font-size: 20px;
+}
+section{
+    padding:10px;
+    margin: 10px;    
+}
+img{
+    width: 70px; height: 90px;
+    float: left;
+    margin-right: 10px;
+}
