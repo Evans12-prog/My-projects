@@ -3,6 +3,7 @@ body{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 color: white;
 background-image: url(FB_IMG_1729629574251.jpg);
+text-align: center;
 }
 header{
     background-color: rgb(122, 122, 146);
@@ -32,7 +33,42 @@ section{
     margin: 10px;    
 }
 img{
-    width: 70px; height: 90px;
+    width: 300px; height: 450px;
     float: left;
     margin-right: 10px;
+}
+h2{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+h3 {
+    text-align: center;
+}
+form input ,form textarea {
+padding: 7px;
+margin: 4px;
+width:auto;
+height: auto;
+display:inline-block
+}
+form button {
+    padding: 10px;
+color:aqua;
+    border-radius: 3px;
+    display:inline-block;
+}
+form button :hover{
+     border: black;
+     background-color:#332245;
+}
+footer{
+    background-color: #444040;
+     color: white;
+     padding: 6px;
+     text-align: center;
+     position: fixed;
+     width: 100%;
+     bottom: 0;
 }
